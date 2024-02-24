@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.trend{
+    display: flex;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trend p{
+    margin-top:200px ;
+    rotate: -90deg;
+    font-family: "poppins",Arial;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 100px;
+}
+.trend span{
+    font-size: 18px;
+    color: yellow;
+    margin-left: 40px;
+    margin-top: 200px;
+}

@@ -1,0 +1,305 @@
+body{
+    margin: 0;
+    background-color: #242428;
+    font-family: "Poppins", Arial;
+    width: 100%;
+}
+
+.head{
+    background: linear-gradient(#242428,#484848);
+    height: 550px;
+}
+.top{
+    height: 50px;
+}
+.header{
+    display: flex;
+    justify-content: left;
+    left: 9%;
+    top: 20px;
+    align-items: center;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+    width: 1000px;
+    
+}
+
+.header ul li{
+    margin-top:20px;
+    
+    display: inline;
+    padding: 24px;
+    
+}
+.header ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Poppins", Arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.header ul li :hover{
+    color: #FFDD95;
+ 
+}
+
+.bar{
+    color:white;
+}
+
+.search{
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.sbar{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.sbar input{
+    width:500px;
+    height:50px;
+    border-radius:40px ;
+    border: 2px solid transparent;
+    padding-left:40px ;
+    padding-top: 2px;
+    
+    font-size:19px ;
+}
+.sbar input::placeholder{
+ font-family:inherit;
+ font-size:19px;
+ font-weight:400;
+}
+
+.sicon{
+    position: absolute;  
+    left: 570px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFDD95;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.site{
+
+    background-color: #FFDD95;
+    width: 70%;
+    height: 60px;
+    font-size: 13px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: normal;
+    color: #252627;
+    border: transparent;
+    cursor: pointer;
+}
+.site h2{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.share{
+    margin-top: 30px;
+    width: 94%;
+    background-color: #121315;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+.share span,p{
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+.share span{
+    color: #ffdd95;
+    font-family: "Poppins", Arial;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left:1%;
+}
+.share p{
+    margin-left:1%;
+    color:#9CA6A9 ;
+    font-family: "Poppins", Arial;
+    font-size: 13px;
+    
+}
+
+
+.line{
+    border-left: 2px solid #ffdd95;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.left{
+    color: white;
+    font-family: "Poppins", Arial;
+    width: 650px;
+}
+.left h1{
+    font-size: 25.2px;
+    margin-bottom: 25.2px;
+}
+.left h2{
+    font-size: 21px;
+    margin-top: 31px;
+    margin-bottom: 15.2px;
+}
+.left p,li{
+    font-size: 15px;
+    margin-bottom: 14px;
+    color:#CCCCCC;
+    word-spacing: 0.9px;
+    letter-spacing: 0.4px;
+}
+.left ul{
+    margin-left: -40px;
+    font-size: 15px;
+}
+.right{
+    padding: 20px;
+    margin-top: -30px;
+    color: white;
+}
+.item{
+    background-color: #2F2F33;
+    border-radius: 20px;
+    margin-top: 10px;
+    color:#CCCCCC;
+    width: 400px;
+    padding: 20px;
+    height: 150px;
+    font-size: 12px;
+}
+.item h4 a{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.pa{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.pa img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    
+}
+.pa a{
+    margin-left: 20px;
+    font-size:14px;
+    text-decoration: none;
+    color:#CCCCCC ;
+}
+.gi-top{
+    display: flex;
+}
+
+.btn{
+    font-family: "Poppins", Arial;
+    font-size: 12px;
+    width: 440px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #2F2F33;
+    color: white;
+     border-radius: 30px  ;
+     border: transparent;
+}
+
+@media screen and (max-width:1200px) {
+    .header{
+        width:700px;
+        left:1%;
+    }
+    
+    .ianim{
+        display: none;
+    }
+    .item{
+        width: 300px;
+        height: 200px;
+    }
+    .btn{
+        width: 310px;
+    }
+    
+}
+.footer{
+    display: flex;
+    margin-top: 2%;
+}
+.footerl{
+    color: #CCCCCC;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.footerl p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.footerl p a:hover{
+    color:#fbf28e;
+    text-decoration: none;
+    font-weight: 600;
+}
+.L1{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 45px;
+    border-left:.2px solid #CCCCCC;
+}
+.L2{
+    margin-top: 25px;
+    width: 92%;
+    border-top: 1px solid grey;
+}
+.sea1{
+    margin-top: 20px;
+    width: 100%;
+    font-family: "poppins";
+    font-size: 17px;
+}
+.sea1 p a{
+    color:#9CA6A9 ;
+    text-decoration: none;
+}
+.sea1 p a:hover{
+    color:#ffdd95;
+    text-decoration: none;
+    background-image: url();
+}

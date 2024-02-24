@@ -1,0 +1,54 @@
+body{
+    background-color: grey;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #272822;
+    color: aliceblue;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+}
+
+.header ul li{
+    display: inline;
+    padding: 40px;
+    
+    
+}
+.header ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header ul li :hover{
+    color: grey;
+ 
+}
+
+.img1{
+    border: 2px solid green;
+    border-radius: 100px;
+}
+
+.header button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: grey;
+    color: aliceblue;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+.A1{
+    background-image: url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/06/luffy-from-one-piece-goku-from-dragon-ball-z-and-saitama-from-one-punch-man.jpg);
+    height: 400px;
+}
